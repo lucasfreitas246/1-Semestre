@@ -1,0 +1,51 @@
+/* Seção principal da história */
+.conteudo-historia {
+    padding: 40px 60px;
+}
+
+/* Título */
+.titulo-historia {
+    text-align: center;
+    color: #a8001c;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+/* Parágrafos do texto */
+.texto-historia {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    white-space: pre-line; /* respeita as quebras de linha do texto */
+}
+
+/* Imagem do restaurante */
+.imagem img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+/* Botão voltar ao topo */
+#btnTopo {
+    margin-top: 20px;
+    background-color: #a8001c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#btnTopo:hover {
+    background-color: darkred;
+}
+
+/* Mensagem após clicar */
+#mensagemTopo {
+    margin-top: 10px;
+    color: #a8001c;
+    font-weight: bold;
+}

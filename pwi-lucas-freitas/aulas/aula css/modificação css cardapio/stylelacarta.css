@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background-color: #722F37;
+    padding: 1px 5px;
+    font-family: verdana;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana;
+    background: linear-gradient(to right, #C9A84C, #F5F0E8);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+animation: aparecer 2s ease-in-out;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.menu-link{
+    text-decoration: none;
+    color: #C9A84C;
+    display: flex;
+    gap: 25px;
+}
+.menu-link a{
+    text-decoration: none;
+    color:#f0dab6;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.menu-link a:hover{
+    color: #C9A84C;
+}
+.menu-link .ativo{
+    color:#C9A84C;
+    font-weight: bold;
+}
+body{
+    background-image: url("img/restaurante.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+h1{
+    color: #F0E68C;
+}
+p{
+    font-family: Arial;
+    font-size: 20px;
+    margin: 20px;
+    padding: 40px;
+    color: #3D1C1C;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.titulo-prato{
+    font-family: Verdana;
+      margin: auto;
+  width: 300px;
+  color: #722F37;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.img-prato{
+        border-radius: 25px;
+          width: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+  margin: auto;
+  width: 300px;
+}
+.tabela1{
+align-items: center;
+}
+.tabela2{
+    align-items: center;
+}
+.prato-principal{
+    border-radius: 25px;
+          width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+  margin: 5px 50px 200px 50px;
+  width: 350px;
+}
+.conteudo{
+    background-color:rgba(247, 214, 160, 0.8);
+}

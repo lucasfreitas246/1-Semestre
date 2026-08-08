@@ -1,0 +1,18 @@
+Projeto de Banco X... para entregar 10/04
+
+
+São duas atividades 
+
+1) Entregar em forma de tópicos, relação de entidade da locadora
+
+
+2 Entregar em Arquivo
+
+	- Capa (Com seu nome)
+	- historia do cliente
+	- Relação de Entidade
+	- Diagrama de Entidade Relacionamento
+
+
+
+**OBS:. entregar em .DOCx**

@@ -1,0 +1,3 @@
+Crie um circuito e um programa no qual um servo motor ou um motor DC é controlado por algum sensor.
+
+Você pode pensar sobre exemplos de aplicações de motores que já tenha visto em algum lugar e simular este comportamento com a sua Arduino. 

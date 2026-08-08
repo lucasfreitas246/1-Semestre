@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nossahistoria.css">
+    <title>Pasta & Prosa</title>
+</head>
+<body>
+
+    <header>
+        <nav class="menu"><!--criar menu-->
+            <h1 class="logo">Pasta & Prosa</h1>
+            <ul class="menu-links"><!--UL cria uma lista-->
+                <a href="28-04.html">Inicio</a>
+                <a href="cardapio.html">Cardápio</a>
+                <a href="nossaHistoria.html" class="ativo">Nossa História</a>
+                <a href="localizacao.html">Localização</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="conteudo-historia">
+        <div>
+            <h1 class="titulo-historia">
+                Pasta & Prosa: Onde Vidas se Encontram à Mesa
+            </h1>
+            <table>
+            <tr>
+                <td>
+                    <p class="texto-historia">No meio de uma rua discreta, longe dos restaurantes caros e cheios de aparência, existia o Pasta & Prosa. Quem passava pela frente não dava muito — uma fachada simples, mesas de madeira e um cheiro constante de molho de tomate fresco no ar. Mas quem entrava… não esquecia.
+
+O restaurante era comandado por Antônio, um homem já mais velho, que falava pouco, mas observava tudo. Ele não acreditava que comida era só pra matar a fome. Pra ele, cada prato era uma desculpa pra fazer as pessoas desacelerarem — coisa rara hoje.
+
+O curioso é que o Pasta & Prosa não tinha cardápio fixo. Antônio perguntava duas coisas pra cada cliente:
+"Você tá com fome de quê?" e "Como foi seu dia?"
+
+Dependendo da resposta, ele decidia o prato.</p>
+
+<p class="texto-historia">Uma noite, um rapaz entrou sozinho, claramente cansado. Disse que o dia tinha sido um desastre. Antônio não falou nada, só voltou com um prato simples: macarrão ao molho de alho e óleo, com pão quente. O rapaz comeu em silêncio… e quando terminou, parecia outro. Não porque o prato era sofisticado — mas porque alguém, pela primeira vez no dia, tinha realmente prestado atenção nele.
+
+Com o tempo, o restaurante virou ponto de encontro de gente muito diferente: casal em crise, amigos que não se viam há anos, gente comemorando conquistas ou tentando esquecer derrotas. E, de alguma forma, todos saíam dali mais leves.
+
+Mas o que quase ninguém sabia era que o próprio Antônio tinha criado o restaurante depois de perder a esposa. Antes disso, ele era só mais um chef obcecado por técnica e perfeição. A perda fez ele perceber uma coisa simples e dura: comida perfeita não adianta nada se não tem gente pra compartilhar.
+
+Então ele mudou tudo.</p>
+
+<p class="texto-historia">O Pasta & Prosa nunca ganhou estrela, nunca virou moda em rede social, e Antônio nunca fez questão disso. Pra ele, sucesso era outra coisa — era ver alguém chegar fechado e sair conversando, era ver silêncio virar riso.
+
+E até hoje, quem entra lá não encontra só comida.
+
+Encontra tempo. Coisa que quase ninguém tem mais.</p>
+
+                    <!--botão para voltar ao topo-->
+                    <button id="btnTopo" onclick="voltarTopo()">↑ Voltar ao topo</button>
+                    <p id="mensagemTopo"></p>
+                </td>
+                <td class="imagem">
+                    <img src="img/restaurante.png">
+                </td>
+            </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer><!--Rodapé-->
+        <!--barra vermelha-->
+        <div class="barra-alerta">
+            <p>SE BEBER, NÃO DIRIJA!</p>
+        </div>
+        <!--conteudo principal do rodapé-->
+        <div class="footer-container">
+            <!--logo-->
+            <div class="footer-logo">
+                <h2>Pasta & Prosa</h2>
+            </div>
+            <!--link do site-->
+            <div class="footer-link">
+                <a href="28-04.html">Inicio</a>
+                <a href="cardapio.html">Cardapio</a>
+                <a href="nossaHistoria.html">Nossa História</a>
+                <a href="localizacao.html">Localização</a>
+            </div>
+            <!--redes sociais-->
+            <div class="footer-redes">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        //função que volta ao topo da página
+        function voltarTopo() {
+            window.scrollTo(0, 0);
+            //exibe mensagem de confirmação
+            document.getElementById("mensagemTopo").innerHTML = "Você voltou ao início!";
+        }
+    </script>
+
+</body>
+</html>

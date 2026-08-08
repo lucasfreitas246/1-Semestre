@@ -1,0 +1,17 @@
+.titulo-historia{
+    text-align: center;
+    font-family: Verdana;
+}
+.texto-historia{
+    text-align: center;
+    font-family: Verdana;
+}
+.imagem{
+    display: flex;
+    height: 500px;
+    margin: 50px 50px;
+    border-radius: 50px;
+}
+.conteudo-historia{
+    align-items: center;
+}
